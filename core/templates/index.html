@@ -30,8 +30,10 @@
             </form>
 
             {% if short_url %}
-            <hr>
-            <span><a href="{{ short_url }}" target="_blank">{{ short_url }}</a></span>
+            <div class="text-center simple-container">
+                Your new shortened URL:<br>
+                <a href="{{ short_url }}" target="_blank">{{ short_url }}</a>
+            </div>
             {% endif %}
         </div>
         <div class="col-md-2"></div>

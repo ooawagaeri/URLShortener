@@ -65,7 +65,7 @@ hr {
 	background-color: #d8d8d8;
 	border: none;
 	width: 100%;
-	margin: 0px;
+	margin: 10px;
 }
 
 a[href] {
@@ -99,3 +99,10 @@ aside,
 		font-size: 18px;
 	}
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: auto;
+        width: 80%;
+    }
+  }
