@@ -8,7 +8,15 @@ The following command will install the packages according to the configuration f
 $ pip install -r requirements.txt
 ```
 
-After which, to configure your machine's environment variables with values from ```.env```.
+After which, to configure your machine's environment variables with
+```
+SECRET_KEY=verysecretkey
+DATABASE_URL=sqlite:///shorty.db
+APP_SETTINGS=config.DevelopmentConfig
+FLASK_APP=core
+```
+
+Note: While deploying, you may change the APP_SETTINGS to config.ProductionConfig.
 
 Then run the URL application 
 using:
