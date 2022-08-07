@@ -1,3 +1,4 @@
+![](core/static/screenshot.png)
 # URLShortener
 A simple URL Shortening Service for GovTech Technical Assessment 2023.
 
