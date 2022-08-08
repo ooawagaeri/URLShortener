@@ -4,7 +4,7 @@ from datetime import datetime
 def test_new_shortUrl_with_fixture(new_shortUrl):
     """
     Tests creation of new ShortUrl.
-    Verifies if input attributes are defined correctly
+    Verifies if input attributes are defined correctly.
     """
     date_now_str = '08/08/22 08:08:08'
     date_obj = datetime.strptime(date_now_str, '%d/%m/%y %H:%M:%S')

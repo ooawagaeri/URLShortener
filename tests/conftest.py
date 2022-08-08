@@ -7,7 +7,7 @@ from core.models import ShortUrls
 @pytest.fixture(scope='module')
 def new_shortUrl():
     """
-    Creates new ShortUrl object for unit testing.
+    Creates new ShortUrl object.
     """
     date_now_str = '08/08/22 08:08:08'
     date_obj = datetime.strptime(date_now_str, '%d/%m/%y %H:%M:%S')
@@ -20,7 +20,7 @@ def new_shortUrl():
 @pytest.fixture(scope='module')
 def test_client():
     """
-    Initializes test flask client for testing.
+    Initializes test flask client.
     """
     app.config.update(
         TESTING=True,
