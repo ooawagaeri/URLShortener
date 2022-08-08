@@ -18,8 +18,12 @@ FLASK_APP=core
 
 Note: While deploying, you may change the APP_SETTINGS to config.ProductionConfig.
 
-Then run the URL application 
-using:
+To run the various test cases, use:
+```
+$ python -m pytest -v
+```
+
+Then run the URL client application, use:
 ```
 $ flask run
 ```
