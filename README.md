@@ -1,6 +1,6 @@
 ![](core/static/screenshot.png)
 # URLShortener
-A simple URL Shortening Service for GovTech Technical Assessment 2023.
+A simple URL Shortening Service.
 
 ## Usage
 The following command will install the packages according to the configuration file ```requirements.txt```.
